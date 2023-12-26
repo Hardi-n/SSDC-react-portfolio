@@ -1,0 +1,49 @@
+.maincontainer {
+    margin: 5rem;
+}
+
+.maincontainer h2 {
+    text-align: center;
+    color: orange;
+}
+
+.photoscontainer {
+    width: 70%;
+    /* justify-content: center; */
+    margin: 0 auto;
+    /* margin-left: 15rem; */
+}
+
+.flexphotoscontainer {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: space-between;
+}
+
+.photoscontainer .photo {
+    /* position: static; */
+    width: 200px;
+    /* Set the width of the container */
+    height: 200px;
+    /* Set the height of the container */
+    /* border: 1px solid #ccc; */
+    /* Optional: Add a border for visibility */
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.maincontainer .photo img {
+    width: 100%;
+    /* Set the image width to fill the container */
+    height: 100%;
+    /* Set the image height to fill the container */
+    object-fit: cover;
+    border: 2px solid black;
+    margin: 5px;
+    outline: none;
+    transition: transform 0.3s ease-in-out;
+}
+.maincontainer .photo:hover{
+    transform: scale(1.2);
+    /* zoom: 1; */
+}

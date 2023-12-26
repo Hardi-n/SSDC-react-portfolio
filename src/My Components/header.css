@@ -1,0 +1,47 @@
+.container{
+    position: fixed;
+    width: 100%;
+}
+.navbarfixed{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    color: black;
+    z-index: 10000;
+}
+
+.navbar span {
+    margin-top: 20px;
+    margin-left: 150px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: rgb(255, 106, 0);
+}
+
+.navbar .links {
+    margin-right: 150px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.navbar .links a {
+    margin-top: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.navbar .links a:hover {
+    text-decoration: underline;
+}
+
+.Home {
+    text-decoration: underline;
+}

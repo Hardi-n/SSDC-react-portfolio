@@ -1,0 +1,32 @@
+.container{
+    position: static; 
+    font-family: monospace;
+}
+.text-center{
+    text-align: center;
+    font-size: 2rem;
+    font-family: serif;padding-right:10rem ; 
+    font-weight: 200;
+}
+.about{
+    margin: 5rem 8rem;
+}
+.about p{
+    /* line-height-step: 100; */
+    line-height: 2rem;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.about ul{
+    
+  background: #ff9999;
+  padding: 20px;
+  margin-right: 20rem;
+}
+.about ul li {
+    background: #ffe5e5;
+    color: darkred;
+    padding: 10px;
+    margin-left: 35px;
+    font-size: 1rem;
+}

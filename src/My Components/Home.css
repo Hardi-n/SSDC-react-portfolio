@@ -1,0 +1,38 @@
+.home {
+    margin-top: 0px;
+    background-image: url(homebackground\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+}
+
+.parentcontainerhome {
+    position: static;
+}
+
+.home h3 {
+    margin-top: 0px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: white;
+}
+
+.home span {
+    color: rgb(217, 144, 7);
+    font-weight: 2000000;
+}
+
+.home p {
+    margin-top: 2%;
+    font-size: 1.5rem;
+    color: rgb(0, 24, 145);
+    background-color: rgb(255, 255, 255);
+}
+
+.home img {
+    margin-top: 50px;
+}
+
